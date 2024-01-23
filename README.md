@@ -1,6 +1,6 @@
 # The One Billion Row Challenge
 
-Zig implementation of the [1brc](https://github.com/gunnarmorling/1brc) challange.
+Zig implementation of the [1brc](https://github.com/gunnarmorling/1brc) challenge.
 
 ## Generating a test file
 
@@ -46,9 +46,9 @@ time ./zig-out/bin/1brc-zig measurements.txt > /dev/null
 ```
 
 ```
-hyperfine --warmup 1 "./zig-out/bin/1brc-zig 1brc-zig/measurements.txt > /dev/null"
+hyperfine --warmup 1 "./zig-out/bin/1brc-zig measurements.txt > /dev/null"
 
-Benchmark 1: ./zig-out/bin/1brc-zig 1brc-zig/measurements.txt > /dev/null
+Benchmark 1: ./zig-out/bin/1brc-zig measurements.txt > /dev/null
   Time (mean ± σ):      4.057 s ±  0.049 s    [User: 33.571 s, System: 1.607 s]
   Range (min … max):    3.997 s …  4.135 s    10 runs
 ```
