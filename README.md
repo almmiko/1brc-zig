@@ -34,7 +34,7 @@ To benchmark using `hyperfine`:
 hyperfine --warmup 1 "./zig-out/bin/1brc-zig measurements.txt"
 ```
 
-Benchmarks results for `Apple M1 Pro 32MB RAM, 10 CPU Cores`
+Benchmarks results for `Apple M1 Pro 32GB RAM, 10 CPU Cores`
 
 ```
 time ./zig-out/bin/1brc-zig measurements.txt > /dev/null
